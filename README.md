@@ -19,3 +19,7 @@
 </p>
 
 
+## About
+This repository is for evaluation of SOLE on Replica dataset. Our SOLE is trained on ScanNet200 dataset and evaluated on Replica dataset. More details are on Sec. 4.2 of the main paper.
+
+## How to use it?
