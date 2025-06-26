@@ -17,12 +17,5 @@
   <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
   </div>
 </p>
-<p align="center">
-  <a href="">
-    <img src="https://github.com/CVRP-SOLE/CVRP-SOLE.github.io/blob/main/static/images/teaser.png?raw=true" alt="Logo" width="100%">
-  </a>
-</p>
-<p align="center">
-<strong>SOLE</strong> is highly generalizable and can segment corresponding instances with various language instructions, including but not limited to visual questions, attributes description, and functional description.
-</p>
-<br>
+
+
