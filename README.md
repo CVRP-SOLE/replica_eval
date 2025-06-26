@@ -23,3 +23,21 @@
 This repository is for evaluation of SOLE on Replica dataset. Our SOLE is trained on ScanNet200 dataset and evaluated on Replica dataset. More details are on Sec. 4.2 of the main paper.
 
 ## How to use it?
+
+First, download the below data:
+* <a href="https://huggingface.co/datasets/onandon/SOLE/tree/main/processed/replica">Pre-processed Replica</a>
+* <a href="https://huggingface.co/datasets/onandon/SOLE/tree/main/openseg/replica">Precomputed per-point CLIP features of Replica</a>
+* <a href="https://huggingface.co/datasets/onandon/SOLE/blob/main/replica.ckpt">Pretrained weight</a>
+
+Move the above files to designated locations:
+* Pre-processed Replica → `data/processed/replica/`
+* Precomputed per-point CLIP features of Replica → `openseg/replica/`
+* Pretrained weight -> `checkpoint/`
+
+Now, you are ready to evaluate our SOLE! Run the below script.
+
+```
+bash eval.sh
+```
+
+Due to the stochastic nature of voxelization, the performance may exhibit slight variations (up to ±1.0 AP) across different runs.
